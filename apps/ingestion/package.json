@@ -1,0 +1,12 @@
+{
+  "name": "ingestion",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "binance": "^2.2.9",
+    "rethinkdb": "^2.4.2"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./app.js"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #chart {
+        height: var(--lwchart-height, 300px);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Hello World!</h1>
+    <p><a href="/_rethinkdb/">RethinkDB</a></p>
+    <p><a href="/_rabbitmq/">RabbitMQ</a></p> -->
+
+    <div id="chart"></div>
+
+    <script>
+      localStorage.debug = 'socket.io-client:socket'
+    </script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/lightweight-charts.standalone.development.js"></script>
+    <!-- <script src="js/lwc.js" defer></script> -->
+    <script src="js/display.js"></script>
+  </body>
+</html>
